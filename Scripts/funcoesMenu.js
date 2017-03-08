@@ -38,3 +38,23 @@ function getMenuCartoes(dadosCliente) {
 	return ret;
 }
 
+function getMenuAdicionalSemBloqueio(dadosCliente) {
+	var ret = {};
+	ret['frases'] = 'MSG030.vox;MSG024.vox;MSG196.vox';
+	ret['opcoes'] = '270';
+	ret['tentativas'] = '';
+	ret['maxTentativas'] = '';
+	return ret;
+}
+
+function getServicoMenuAdicionalSemBloqueio(opc) {
+
+	var ordemOriginal = '270';
+	var servico = {
+			'2' : 'codigoBarras',
+			'7' : 'outrasOpcoes',
+			'0' : 'ouvirOpcoesNovamente'
+		};
+	return servico[opc];	
+}
+
