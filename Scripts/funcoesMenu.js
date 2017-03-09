@@ -40,7 +40,7 @@ function getMenuCartoes(dadosCliente) {
 
 function getMenuAdicionalSemBloqueio(dadosCliente) {
 	var ret = {};
-	ret['frases'] = 'MSG030.vox;MSG024.vox;MSG196.vox';
+	ret['frases'] = 'MSG030.vox;MSG177.vox;MSG024.vox;MSG196.vox';
 	ret['opcoes'] = '270';
 	ret['tentativas'] = '';
 	ret['maxTentativas'] = '';
