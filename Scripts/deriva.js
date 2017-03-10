@@ -35,6 +35,10 @@ function setParametrosDerivacao(dadosCliente, destino) {
 			break;
 		case 'cobrancaClienteCobranca':
 			break;
+		case 'adicionalSemBloqueioOutrasOpcoes':
+			break;
+		case 'plasticoDesbloqueadoVendaDeSeguroEmprestimoTransferenciaAtiva':
+			break;
 	}
 	return ret;
 }

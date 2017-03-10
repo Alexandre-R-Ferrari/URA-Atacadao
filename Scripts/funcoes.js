@@ -55,6 +55,10 @@ function transferenciaAtivada(dadosCliente, ponto) {
 	return '';
 }
 
+function opcaoCreditoPessoalAtivado(dadosCliente, ponto) {
+	return '';
+}
+
 function getDDD(ani){
 	return ani.substring(0,2);
 }
